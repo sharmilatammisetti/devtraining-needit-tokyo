@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4e937c682f6331108ceed7492799b66b" label="Occasions" max_length="40" name="x_58872_needit_occasions" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Day type" max_length="100" name="day_type" type="string"/>
+        <element label="Employee" max_length="100" name="employee" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee email" max_length="40" name="employee_email" type="string"/>
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="u_number" type="string"/>
+    </element>
+</database>
